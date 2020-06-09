@@ -1,0 +1,119 @@
+
+.navbar {
+   
+    position: sticky;
+
+
+}
+
+.container h2{
+     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.jumbotron img {
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+   .navbar {
+       background: transparent !important;
+       transition: 0.75s ease;
+
+   }
+
+   .info{
+font-family: 'Poppins',
+sans-serif;
+font-size: small;
+
+
+   }
+   .navbar.scrolled {
+       background: #fac1d9 !important;
+       opacity: 96%;
+       
+   }
+
+   .display-7 {
+       font-family: 'Poppins', sans-serif;
+       font-size: xx-large;
+       color: black;
+       text-align: center;
+       text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+   }
+
+.jumbotron {
+    background-color: #fac1d9;
+    background-size: cover;
+    height: 550px;
+    color: white;
+    margin-top: -80px;
+
+}
+.jumbotron h1 {
+    margin-top: 60px;
+    
+}
+
+
+.baju {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.card-text{
+   text-align: center;
+}
+
+ .ig {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 50px;
+     height: 50px;
+     z-index: 9999;
+ }
+
+ .ig:before {
+     content: "";
+     background-repeat: no-repeat;
+     background-size: 34px 34px;
+     background-position: center center;
+     width: 50px;
+     height: 50px;
+     background-image: url("../imgpng/instagram.png ");
+     
+     position: absolute;
+     top: 0;
+     left: 0;
+     border-radius: 100%;
+     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+
+
+
+/* DEKSTOP VERSI */
+@media (min-width: 992px) {
+
+    .navbar {
+
+        position: sticky;
+
+
+    }
+
+.jumbotron {
+    background-size: cover;
+    height: 500px;
+    color: white;
+    margin-top: -80px;
+
+}
+    
+ 
+}
